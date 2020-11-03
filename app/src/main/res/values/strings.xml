@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello fragmentB</string>
+    <string name="hello_blank">Hello fragmentA</string>
+
+    <string name="fragmenta">FragmentA</string>
+    <string name="fragmentb">FragmentB</string>
+    <string name="share_preference">share_preference</string>
+    <string name="fileio">FileIo</string>
+    <string name="sqlate">SQlate</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="enter_your_email">Enter your Email</string>
+</resources>

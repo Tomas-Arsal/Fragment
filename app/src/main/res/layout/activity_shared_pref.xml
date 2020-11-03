@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SharedPref">
+
+    <EditText
+        android:id="@+id/sh_et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/enter_your_email"
+        android:textColor="#8A7A7A"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="39dp" />
+
+    <EditText
+        android:id="@+id/sh_et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:hint="@string/enter_your_password"
+        android:inputType="textPassword"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/sh_cb_remember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250sp"
+        android:text="@string/remember_me"
+        android:textSize="18sp"
+        android:layout_marginStart="250sp" />
+</LinearLayout>
